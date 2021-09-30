@@ -1,0 +1,51 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.TechnicalAssignment" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/cyan_500</item>
+        <item name="colorPrimaryVariant">@color/cyan_500</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/green_550</item>
+        <item name="colorSecondaryVariant">@color/dark_green_570</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <!-- Base application theme without action bar -->
+    <style name="Theme.TechnicalAssignment.NoActionBar" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/cyan_500</item>
+        <item name="colorPrimaryVariant">@color/cyan_500</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/green_550</item>
+        <item name="colorSecondaryVariant">@color/dark_green_570</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+    
+    
+    <style name="Button.Material.Style" parent="Widget.MaterialComponents.Button">
+        <item name="materialThemeOverlay">@style/BlackButtonThemeOverlay</item>
+        <item name="android:padding">15dp</item>
+    </style>
+
+    <style name="Button.Material.Style.Green" parent="Widget.MaterialComponents.Button">
+        <item name="materialThemeOverlay">@style/GreenButtonThemeOverlay</item>
+        <item name="android:padding">15dp</item>
+    </style>
+
+    <style name="BlackButtonThemeOverlay">
+        <item name="colorPrimary">@color/dark_green_570</item>
+    </style>
+
+
+    <style name="GreenButtonThemeOverlay">
+        <item name="colorPrimary">@color/green_550</item>
+    </style>
+</resources>
